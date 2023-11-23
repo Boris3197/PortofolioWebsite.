@@ -87,7 +87,7 @@
   }
   
   .nav-item {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     opacity: 0.7;
     display: block;
     text-align: center;
@@ -116,10 +116,10 @@
   
   .toggler .line {
     width: 30px;
-    height: 2px;
+    height: 3px;
     display: block;
     background-color: var(--text);
-    margin: 5px;
+    margin: 9px;
   }
 
   .hero {
@@ -147,17 +147,18 @@
   
   .hero-description {
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .hero-description1 {
     padding: 10px;
     font-style: italic;
-    font-size: 17px;
+    font-size: 25px;
   }
 
   .about {
     color: var(--text);
+    font-size: 22px;
   }
   
   .about-info {
@@ -166,17 +167,19 @@
   
   .description {
     opacity: 0.8;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     line-height: 1.5;
   }
   
-  .secondery-title {
+  .secondary-title {
     display: inline-block;
     margin-bottom: 1.5rem;
   }
-  
-  .secondery-title::after {
+  .h2 {
+    margin-left: 20px;
+  }
+  .secondary-title::after {
     content: "";
     display: block;
     width: 100%;
@@ -191,6 +194,8 @@
     text-align: center;
     padding: 2rem 1rem;
     margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+
   }
   
   .services-item i {
@@ -228,11 +233,14 @@
   .contact-info-item {
     display: flex;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
   }
   
   .contact-info-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: var(--accent);
     border-radius: 50%;
     display: flex;
@@ -240,14 +248,25 @@
     align-items: center;
     margin-right: 0.5rem;
     margin-bottom: 1rem;
+    margin-left: 18px;
   }
 
   .linkedin {
-    padding: 10px;
+    padding: 15px;
   }
 
+  #contact {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  #contact1 {
+    margin-left: 70px;
+  }
   .github {
-    padding: 10px;
+    padding: 15px;
   }
   
   .footer {
@@ -279,8 +298,10 @@
 
     .project-description {
       padding: 15px;
+      margin: 5px;
+      font-size: 20px;
     }
-  
+
     .grid-item {
       width: 30%;
     }
@@ -347,7 +368,7 @@
     .about-info {
       width: 55%;
     }
-  
+    
     .contact {
       display: flex;
       justify-content: space-between;
